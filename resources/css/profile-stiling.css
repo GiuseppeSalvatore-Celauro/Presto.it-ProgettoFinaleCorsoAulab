@@ -1,0 +1,99 @@
+:root{
+    --font_logo: "Sansita", sans-serif;
+    --font_testi: "Dosis", sans-serif;
+    --color1: rgb(146, 227, 169);
+    --color2: rgb(130, 71, 255);
+    --color3: rgb(39, 50, 56);
+}
+.bgimg-profile-custom{
+    /* background-image: url('/public/img/default.jpg'); */
+    width: 100%;
+    height: 15vh;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    z-index: 0;
+}
+.bg-profile-custom{
+    background: rgba(255, 255, 255, 0.7);
+    height: fit-content;
+    z-index: -1;
+}
+.img-profile-custom{
+    border: 1px solid;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin-top: -10vh;
+    background-color: white;
+    z-index: 2;
+}
+
+.ul-profile-custom>li{
+    list-style: none;
+    margin-left: -4vh;
+    font-size: 16px;
+}
+.ul-profile-custom{
+    display: grid;
+    gap: 10px;
+}
+.a-profile-custom{
+    text-decoration: none;
+    color: black;
+}
+.information-profile-custom{
+    margin-top: -50px;
+}
+.boxInserzioni-profile-custom{
+    width: 100%;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.form-control-custom{
+    width: 80%;
+    height: 40px;
+    transition: 0.2s;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+}
+.btn-invia{
+    border: solid var(--color3) 1px;
+    width: 15%;
+    height: 40px;
+}
+.btn-invia:hover{
+    border: none;
+    background-color: var(--color3);
+    color: white;
+}
+.form-control-custom:focus{
+    outline: none;
+    box-shadow: 0px 20px 28px rgb(0, 0, 0, 0.32);
+}
+.imgCommenti-profile-custom{
+    width: 50px;
+    height: 50px;
+}
+@media screen and (max-width: 576px){
+    .img-profile-custom{
+        border: 1px solid;
+        position: relative;
+        width: 120px;
+        height: 120px;
+        margin-top: -10vh;
+        background-color: white;
+        z-index: 2;
+    }
+}
+/* MODALE */
+.btn-none{
+    border: none;
+    background: none;
+}
+.modal-base{
+    border: 2px var(--color2) solid;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+}

@@ -1,0 +1,32 @@
+{
+  "public/img/imgCategorie/10051772.jpg": {
+    "file": "assets/10051772-UhQISBpV.jpg",
+    "src": "public/img/imgCategorie/10051772.jpg"
+  },
+  "public/img/imgCategorie/6721758.jpg": {
+    "file": "assets/6721758-KxDCFt3K.jpg",
+    "src": "public/img/imgCategorie/6721758.jpg"
+  },
+  "public/img/imgCategorie/7213985.jpg": {
+    "file": "assets/7213985-Ym7J7b6K.jpg",
+    "src": "public/img/imgCategorie/7213985.jpg"
+  },
+  "public/img/imgCategorie/7305492.jpg": {
+    "file": "assets/7305492-xNexl2gF.jpg",
+    "src": "public/img/imgCategorie/7305492.jpg"
+  },
+  "public/img/imgCategorie/8545064.jpg": {
+    "file": "assets/8545064-OYzGqoJG.jpg",
+    "src": "public/img/imgCategorie/8545064.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-vivt-Cl3.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-TdcKTBHR.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}

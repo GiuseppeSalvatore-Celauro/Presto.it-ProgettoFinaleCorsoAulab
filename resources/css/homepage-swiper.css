@@ -1,0 +1,174 @@
+/* gestione delle card e dello swiper */
+
+
+.container-wrapper{
+    width: 100%;
+    min-height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* padding: 20px 100px; */
+    position: relative;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.78);
+}
+
+.card-container-custom{
+    min-width: 35%;
+    z-index: 1;
+    position: relative;
+    left: 0px;
+    transition: 1s;
+    /* margin-left: 50px; */
+
+    height: 400px;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+.card-img-swiper{
+    border-radius: 0;
+    height: 220px;
+}
+.card-body-swiper{
+    height: 150px;
+}
+.card-container-custom:nth-child(1):hover,
+.card-container-custom:nth-child(2):hover,
+.card-container-custom:nth-child(3):hover,
+.card-container-custom:nth-child(4):hover,
+.card-container-custom:nth-child(5):hover,
+.card-container-custom:nth-child(6):hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
+.hover-a-custom:hover{
+    text-decoration: underline;
+}
+.btn-before-custom{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    font-size: 40px;
+    border: none;
+    background: rgba(255, 255, 255, 0.788);
+    z-index: 2;
+}
+.btn-after-custom{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    font-size: 40px;
+    border: none;
+    background: rgba(255, 255, 255, 0.788);
+    z-index: 2;
+}
+
+
+.container-wrapper::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+    /* background: rgb(203, 0, 0); */
+}
+
+
+@media (max-width: 767.98px) {
+    .btn-before-custom{
+        background: transparent;
+    }
+    .btn-after-custom{
+        background: transparent;
+    }
+    .container-wrapper{
+        overflow-y: hidden;
+        height: 50vh;
+        padding: 0;
+    }
+    .card-container-custom{
+        min-width: 300px;
+        height: 85%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 991.98px) {
+    .btn-before-custom{
+        background: transparent;
+    }
+    .btn-after-custom{
+        background: transparent;
+    }
+    .container-wrapper{
+        overflow-y: hidden;
+        height: 50vh;
+        padding-left: 50px!important;
+    }
+    .card-container-custom{
+        min-width: 300px;
+        height: 85%;
+        font-size: 14px;
+    }
+}
+@media (max-width:  1199.98px) {
+    .btn-before-custom{
+        background: transparent;
+    }
+    .btn-after-custom{
+        background: transparent;
+    }
+    .container-wrapper{
+        overflow-y: hidden;
+        height: 50vh;
+        padding: 0;
+    }
+    .card-container-custom{
+        min-width: 300px;
+        height: 85%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .btn-before-custom{
+        background: transparent;
+    }
+    .btn-after-custom{
+        background: transparent;
+    }
+    .container-wrapper{
+        overflow-y: hidden;
+        height: 50vh;
+        padding: 0;
+    }
+    .card-container-custom{
+        min-width: 300px;
+        height: 85%;
+        font-size: 14px;
+    }
+}
+@media (max-width: 575.98px) {
+    .btn-before-custom{
+        background: transparent;
+    }
+    .btn-after-custom{
+        background: transparent;
+    }
+    .container-wrapper{
+        overflow-y: hidden;
+        height: 50vh;
+        padding: 0;
+    }
+    .card-container-custom{
+        min-width: 290px;
+        height: 80%;
+        font-size: 14px;
+    }
+}
+
+.container-wrapper::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+html {
+    scrollbar-width: 0px;
+}

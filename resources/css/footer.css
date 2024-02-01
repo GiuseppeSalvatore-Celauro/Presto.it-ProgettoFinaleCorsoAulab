@@ -1,0 +1,44 @@
+:root{
+    --font_logo: "Sansita", sans-serif;
+    --font_testi: "Dosis", sans-serif;
+    --color1: rgb(146, 227, 169);
+    --color2: rgb(130, 71, 255);
+    --color3: rgb(39, 50, 56);
+}
+
+.sfondo{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5) 13%, rgba(147,227,169,0.8239670868347339) 100%);
+}
+.textColor{
+    color: var(--color2);
+}  
+.colreIcone{
+    color:var(--color2);
+    font-size: 20px;}
+    .animazione-offCanvas{
+        transition: transform .3s;
+    }
+    .animazione-offCanvas:hover{
+        transform: scale(1.02);
+        font-weight: bold;
+        color: var(--color2) ;
+    }
+    .logo{
+        font-family: var(--font_logo);
+        letter-spacing: -2px!important;
+        color: var(--color2);
+        transition: .6s;
+    }
+    .logo:hover{
+        color: white;
+        transform: scale(.8);
+        background-color: var(--color2);
+        border-radius: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        box-shadow: -8px 10px 18px -7px rgba(39,50,56,0.75);
+        -webkit-box-shadow: -8px 10px 18px -7px rgba(39,50,56,0.75);
+        -moz-box-shadow: -8px 10px 18px -7px rgba(39,50,56,0.75);
+    }
+    
